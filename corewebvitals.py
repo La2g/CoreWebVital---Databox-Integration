@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import requests
 import json
-from datetime import date, timedelta
 from databox import Client
 
 def query_psi(url, key, strategy="desktop"):
