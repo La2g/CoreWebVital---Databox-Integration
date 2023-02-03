@@ -20,9 +20,9 @@ def query_psi(url, key, strategy="desktop"):
     return psi_data
 
 plataform = ['desktop', 'mobile']
-databox_desktop_token = "48vf5bc28s8ephm598n55"  # Databox key
-databox_mobile_token = "6maf1whudexoueqpo0xy8"
-psi_key = "AIzaSyArPEFNbxD9WacobZVg0otnlMetApJDLI0"  # PageSpeed Insights API key
+databox_desktop_token = ""  # Databox key
+databox_mobile_token = ""
+psi_key = ""  # PageSpeed Insights API key
 urls = ['https://databox.com', 'https://app.intercom.com']
 
 #parse over the desktop and mobile strategy options
